@@ -201,9 +201,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         pipeSprite2.physicsBody?.contactTestBitMask = birdCat
         pipePairNode.addChild(pipeSprite2)
         
-        //setup virtual contact point for score to increment
-        let contactNode = SKNode()
-        contactNode.position =
+
         
         //setup action
         let distanceToMove = self.frame.size.width + pipeTextureWidth * scaleFactorCG
